@@ -276,7 +276,7 @@ THE SOFTWARE.
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
           <version>1.12</version>
-          <executions>
+          <!--executions>
             <execution>
               <id>timestamp-property</id>
               <goals>
@@ -301,7 +301,7 @@ THE SOFTWARE.
                 <failIfNoMatch>false</failIfNoMatch>
               </configuration>
             </execution>
-          </executions>
+          </executions-->
         </plugin>
         <plugin>
           <groupId>org.codehaus.gmaven</groupId>
